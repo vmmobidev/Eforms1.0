@@ -10,4 +10,7 @@
 
 @interface AboutViewController : UIViewController
 
+
+-(IBAction)homeclick:(id)sender;
+
 @end

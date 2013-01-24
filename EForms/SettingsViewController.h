@@ -10,4 +10,5 @@
 
 @interface SettingsViewController : UIViewController
 
+-(IBAction)homeclick:(id)sender;
 @end

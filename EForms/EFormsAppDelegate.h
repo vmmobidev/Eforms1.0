@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ConnectionDelegate.h"
 
 @class EFormsViewController;
 
@@ -16,4 +17,7 @@
 
 @property (strong, nonatomic) EFormsViewController *viewController;
 
+@property(strong,nonatomic) UINavigationController *navController;
+
+@property (nonatomic, retain) id delegate;
 @end

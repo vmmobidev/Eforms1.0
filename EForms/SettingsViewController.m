@@ -22,6 +22,9 @@
     }
     return self;
 }
+-(IBAction)homeclick:(id)sender{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)viewDidLoad
 {

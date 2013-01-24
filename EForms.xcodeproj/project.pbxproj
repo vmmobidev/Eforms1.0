@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E415E1FA169D5A04009D7469 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E415E1F9169D5A04009D7469 /* QuartzCore.framework */; };
+		E415E1FD169D73DB009D7469 /* EKFClogo503x303.png in Resources */ = {isa = PBXBuildFile; fileRef = E415E1FC169D73DB009D7469 /* EKFClogo503x303.png */; };
+		E42B5DA416A566FE00AE35C2 /* DataCapture2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B5DA216A566FE00AE35C2 /* DataCapture2ViewController.m */; };
+		E42B5DA516A566FE00AE35C2 /* DataCapture2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42B5DA316A566FE00AE35C2 /* DataCapture2ViewController.xib */; };
+		E42B5DAB16A56C3700AE35C2 /* roundBackg.png in Resources */ = {isa = PBXBuildFile; fileRef = E42B5DAA16A56C3600AE35C2 /* roundBackg.png */; };
+		E42B5DAE16A56DF500AE35C2 /* roundedBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E42B5DAD16A56DF500AE35C2 /* roundedBG.png */; };
+		E42B5DB016A57EF600AE35C2 /* roundSmallBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E42B5DAF16A57EF600AE35C2 /* roundSmallBG.png */; };
+		E42B5DB216A5845900AE35C2 /* buttonpadBG.png in Resources */ = {isa = PBXBuildFile; fileRef = E42B5DB116A5845900AE35C2 /* buttonpadBG.png */; };
+		E4492064169C0F08008AE28C /* sliderImg.png in Resources */ = {isa = PBXBuildFile; fileRef = E4492063169C0F08008AE28C /* sliderImg.png */; };
+		E4492067169C1D1B008AE28C /* buttonNw.png in Resources */ = {isa = PBXBuildFile; fileRef = E4492066169C1D1B008AE28C /* buttonNw.png */; };
+		E48C126B169C309C006F9A4E /* arroe.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C1269169C309C006F9A4E /* arroe.png */; };
+		E48C126C169C309C006F9A4E /* arrow down.png in Resources */ = {isa = PBXBuildFile; fileRef = E48C126A169C309C006F9A4E /* arrow down.png */; };
+		E48C1271169C454D006F9A4E /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C126F169C454D006F9A4E /* ListViewController.m */; };
+		E48C1272169C454D006F9A4E /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48C1270169C454D006F9A4E /* ListViewController.xib */; };
+		E48C1276169C456B006F9A4E /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C1274169C456B006F9A4E /* AboutViewController.m */; };
+		E48C1277169C456B006F9A4E /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48C1275169C456B006F9A4E /* AboutViewController.xib */; };
+		E48C127B169C4591006F9A4E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C1279169C4591006F9A4E /* SettingsViewController.m */; };
+		E48C127C169C4591006F9A4E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E48C127A169C4591006F9A4E /* SettingsViewController.xib */; };
+		E49411CD16AFB6DA002013C4 /* NewmealData.db in Resources */ = {isa = PBXBuildFile; fileRef = E49411CC16AFB6DA002013C4 /* NewmealData.db */; };
+		E49411D216AFBD38002013C4 /* CustomCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49411D016AFBD38002013C4 /* CustomCellViewController.m */; };
+		E49411D316AFBD38002013C4 /* CustomCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49411D116AFBD38002013C4 /* CustomCellViewController.xib */; };
+		E49423F216A691E400344E69 /* roundtxtBoxBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E49423F116A691E400344E69 /* roundtxtBoxBg.png */; };
+		E495AE5D169C4D9A0072DC5D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E495AE5C169C4D9A0072DC5D /* libsqlite3.0.dylib */; };
+		E495AE60169C55F90072DC5D /* mealData.db in Resources */ = {isa = PBXBuildFile; fileRef = E495AE5F169C55F90072DC5D /* mealData.db */; };
+		E495AE67169C5F880072DC5D /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = E495AE65169C5F880072DC5D /* add.png */; };
+		E495AE68169C5F880072DC5D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = E495AE66169C5F880072DC5D /* home.png */; };
+		E495AE6A169C5F950072DC5D /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = E495AE69169C5F950072DC5D /* list.png */; };
+		E4A06951169AA5CD00284E2E /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A06950169AA5CD00284E2E /* GradientButton.m */; };
+		E4A06956169AA83400284E2E /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A06954169AA83400284E2E /* DashboardViewController.m */; };
+		E4A06957169AA83400284E2E /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A06955169AA83400284E2E /* DashboardViewController.xib */; };
+		E4A0695A169AB72000284E2E /* abtnw.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A06959169AB72000284E2E /* abtnw.png */; };
+		E4A0695C169AB72800284E2E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A0695B169AB72800284E2E /* settings.png */; };
+		E4A0695E169AB72F00284E2E /* collection1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A0695D169AB72F00284E2E /* collection1.png */; };
+		E4A06962169ACFD600284E2E /* DataCaptureMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A06960169ACFD600284E2E /* DataCaptureMainViewController.m */; };
+		E4A06963169ACFD600284E2E /* DataCaptureMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4A06961169ACFD600284E2E /* DataCaptureMainViewController.xib */; };
+		E4A06965169AF23B00284E2E /* whiteback.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A06964169AF23B00284E2E /* whiteback.png */; };
+		E4A06967169AF5E800284E2E /* whiteback2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A06966169AF5E800284E2E /* whiteback2.png */; };
+		E4A06969169B0A6C00284E2E /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A06968169B0A6C00284E2E /* home1.png */; };
+		E4A0696B169B0A7300284E2E /* add1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A0696A169B0A7300284E2E /* add1.png */; };
+		E4A0696D169B0A7E00284E2E /* list1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A0696C169B0A7D00284E2E /* list1.png */; };
 		E4D9683B1696BE6500481DAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D9683A1696BE6500481DAA /* UIKit.framework */; };
 		E4D9683D1696BE6500481DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D9683C1696BE6500481DAA /* Foundation.framework */; };
 		E4D9683F1696BE6500481DAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D9683E1696BE6500481DAA /* CoreGraphics.framework */; };
@@ -15,9 +55,68 @@
 		E4D9684B1696BE6500481DAA /* EFormsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D9684A1696BE6500481DAA /* EFormsAppDelegate.m */; };
 		E4D9684E1696BE6500481DAA /* EFormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D9684D1696BE6500481DAA /* EFormsViewController.m */; };
 		E4D968511696BE6500481DAA /* EFormsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D9684F1696BE6500481DAA /* EFormsViewController.xib */; };
+		E4D9685D1696BFAA00481DAA /* ekfc_header2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D968591696BFAA00481DAA /* ekfc_header2.png */; };
+		E4D9685E1696BFAA00481DAA /* EKFC_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D9685A1696BFAA00481DAA /* EKFC_logo.png */; };
+		E4D9685F1696BFAA00481DAA /* input-password.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D9685B1696BFAA00481DAA /* input-password.png */; };
+		E4D968601696BFAA00481DAA /* input-username.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D9685C1696BFAA00481DAA /* input-username.png */; };
+		E4E89E9C16A0300F009046FE /* white_block.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E89E9916A0300F009046FE /* white_block.png */; };
+		E4E89E9D16A0300F009046FE /* white_curve1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E89E9A16A0300F009046FE /* white_curve1.png */; };
+		E4E89E9E16A0300F009046FE /* white_curve2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4E89E9B16A0300F009046FE /* white_curve2.png */; };
+		E4F06352169EC3F0006A62C1 /* newBg2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F06351169EC3EF006A62C1 /* newBg2.png */; };
+		E4F06355169EC5E1006A62C1 /* ekfctranslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F06354169EC5E1006A62C1 /* ekfctranslogo.png */; };
+		E4F06357169ED68D006A62C1 /* ekfctranslogo_cleaned.png in Resources */ = {isa = PBXBuildFile; fileRef = E4F06356169ED68C006A62C1 /* ekfctranslogo_cleaned.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E415E1F9169D5A04009D7469 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E415E1FC169D73DB009D7469 /* EKFClogo503x303.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EKFClogo503x303.png; sourceTree = "<group>"; };
+		E42B5D9F16A5466300AE35C2 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		E42B5DA116A566FE00AE35C2 /* DataCapture2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCapture2ViewController.h; sourceTree = "<group>"; };
+		E42B5DA216A566FE00AE35C2 /* DataCapture2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCapture2ViewController.m; sourceTree = "<group>"; };
+		E42B5DA316A566FE00AE35C2 /* DataCapture2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataCapture2ViewController.xib; sourceTree = "<group>"; };
+		E42B5DAA16A56C3600AE35C2 /* roundBackg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundBackg.png; sourceTree = "<group>"; };
+		E42B5DAD16A56DF500AE35C2 /* roundedBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundedBG.png; sourceTree = "<group>"; };
+		E42B5DAF16A57EF600AE35C2 /* roundSmallBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundSmallBG.png; sourceTree = "<group>"; };
+		E42B5DB116A5845900AE35C2 /* buttonpadBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonpadBG.png; sourceTree = "<group>"; };
+		E4492063169C0F08008AE28C /* sliderImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderImg.png; sourceTree = "<group>"; };
+		E4492066169C1D1B008AE28C /* buttonNw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNw.png; sourceTree = "<group>"; };
+		E48C1269169C309C006F9A4E /* arroe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arroe.png; sourceTree = "<group>"; };
+		E48C126A169C309C006F9A4E /* arrow down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow down.png"; sourceTree = "<group>"; };
+		E48C126E169C454D006F9A4E /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		E48C126F169C454D006F9A4E /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E48C1270169C454D006F9A4E /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		E48C1273169C456B006F9A4E /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E48C1274169C456B006F9A4E /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E48C1275169C456B006F9A4E /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		E48C1278169C4591006F9A4E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E48C1279169C4591006F9A4E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E48C127A169C4591006F9A4E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		E49411CC16AFB6DA002013C4 /* NewmealData.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewmealData.db; sourceTree = "<group>"; };
+		E49411CF16AFBD38002013C4 /* CustomCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellViewController.h; sourceTree = "<group>"; };
+		E49411D016AFBD38002013C4 /* CustomCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellViewController.m; sourceTree = "<group>"; };
+		E49411D116AFBD38002013C4 /* CustomCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellViewController.xib; sourceTree = "<group>"; };
+		E49423F116A691E400344E69 /* roundtxtBoxBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundtxtBoxBg.png; sourceTree = "<group>"; };
+		E495AE5C169C4D9A0072DC5D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E495AE5F169C55F90072DC5D /* mealData.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = mealData.db; sourceTree = "<group>"; };
+		E495AE65169C5F880072DC5D /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		E495AE66169C5F880072DC5D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		E495AE69169C5F950072DC5D /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		E4A0694F169AA5CD00284E2E /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		E4A06950169AA5CD00284E2E /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		E4A06953169AA83400284E2E /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		E4A06954169AA83400284E2E /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		E4A06955169AA83400284E2E /* DashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		E4A06959169AB72000284E2E /* abtnw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abtnw.png; sourceTree = "<group>"; };
+		E4A0695B169AB72800284E2E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		E4A0695D169AB72F00284E2E /* collection1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection1.png; sourceTree = "<group>"; };
+		E4A0695F169ACFD600284E2E /* DataCaptureMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCaptureMainViewController.h; sourceTree = "<group>"; };
+		E4A06960169ACFD600284E2E /* DataCaptureMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCaptureMainViewController.m; sourceTree = "<group>"; };
+		E4A06961169ACFD600284E2E /* DataCaptureMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataCaptureMainViewController.xib; sourceTree = "<group>"; };
+		E4A06964169AF23B00284E2E /* whiteback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteback.png; sourceTree = "<group>"; };
+		E4A06966169AF5E800284E2E /* whiteback2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteback2.png; sourceTree = "<group>"; };
+		E4A06968169B0A6C00284E2E /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = "<group>"; };
+		E4A0696A169B0A7300284E2E /* add1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add1.png; sourceTree = "<group>"; };
+		E4A0696C169B0A7D00284E2E /* list1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list1.png; sourceTree = "<group>"; };
 		E4D968361696BE6500481DAA /* EForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D9683A1696BE6500481DAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4D9683C1696BE6500481DAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +130,16 @@
 		E4D9684C1696BE6500481DAA /* EFormsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFormsViewController.h; sourceTree = "<group>"; };
 		E4D9684D1696BE6500481DAA /* EFormsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFormsViewController.m; sourceTree = "<group>"; };
 		E4D968501696BE6500481DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EFormsViewController.xib; sourceTree = "<group>"; };
+		E4D968591696BFAA00481DAA /* ekfc_header2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ekfc_header2.png; sourceTree = "<group>"; };
+		E4D9685A1696BFAA00481DAA /* EKFC_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EKFC_logo.png; sourceTree = "<group>"; };
+		E4D9685B1696BFAA00481DAA /* input-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-password.png"; sourceTree = "<group>"; };
+		E4D9685C1696BFAA00481DAA /* input-username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-username.png"; sourceTree = "<group>"; };
+		E4E89E9916A0300F009046FE /* white_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_block.png; sourceTree = "<group>"; };
+		E4E89E9A16A0300F009046FE /* white_curve1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_curve1.png; sourceTree = "<group>"; };
+		E4E89E9B16A0300F009046FE /* white_curve2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_curve2.png; sourceTree = "<group>"; };
+		E4F06351169EC3EF006A62C1 /* newBg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBg2.png; sourceTree = "<group>"; };
+		E4F06354169EC5E1006A62C1 /* ekfctranslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ekfctranslogo.png; sourceTree = "<group>"; };
+		E4F06356169ED68C006A62C1 /* ekfctranslogo_cleaned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ekfctranslogo_cleaned.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E415E1FA169D5A04009D7469 /* QuartzCore.framework in Frameworks */,
+				E495AE5D169C4D9A0072DC5D /* libsqlite3.0.dylib in Frameworks */,
 				E4D9683B1696BE6500481DAA /* UIKit.framework in Frameworks */,
 				E4D9683D1696BE6500481DAA /* Foundation.framework in Frameworks */,
 				E4D9683F1696BE6500481DAA /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +158,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4A06958169AB6D600284E2E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E415E1FC169D73DB009D7469 /* EKFClogo503x303.png */,
+				E42B5DAA16A56C3600AE35C2 /* roundBackg.png */,
+				E49423F116A691E400344E69 /* roundtxtBoxBg.png */,
+				E42B5DAF16A57EF600AE35C2 /* roundSmallBG.png */,
+				E4F06351169EC3EF006A62C1 /* newBg2.png */,
+				E4F06356169ED68C006A62C1 /* ekfctranslogo_cleaned.png */,
+				E495AE69169C5F950072DC5D /* list.png */,
+				E495AE65169C5F880072DC5D /* add.png */,
+				E4E89E9916A0300F009046FE /* white_block.png */,
+				E4E89E9A16A0300F009046FE /* white_curve1.png */,
+				E4E89E9B16A0300F009046FE /* white_curve2.png */,
+				E4F06354169EC5E1006A62C1 /* ekfctranslogo.png */,
+				E495AE66169C5F880072DC5D /* home.png */,
+				E48C1269169C309C006F9A4E /* arroe.png */,
+				E48C126A169C309C006F9A4E /* arrow down.png */,
+				E4492066169C1D1B008AE28C /* buttonNw.png */,
+				E4492063169C0F08008AE28C /* sliderImg.png */,
+				E4A0696A169B0A7300284E2E /* add1.png */,
+				E4A0696C169B0A7D00284E2E /* list1.png */,
+				E4A06968169B0A6C00284E2E /* home1.png */,
+				E4A06966169AF5E800284E2E /* whiteback2.png */,
+				E4A06964169AF23B00284E2E /* whiteback.png */,
+				E4A0695D169AB72F00284E2E /* collection1.png */,
+				E4A0695B169AB72800284E2E /* settings.png */,
+				E4A06959169AB72000284E2E /* abtnw.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		E4D9682B1696BE6500481DAA = {
 			isa = PBXGroup;
 			children = (
+				E415E1F9169D5A04009D7469 /* QuartzCore.framework */,
+				E495AE5C169C4D9A0072DC5D /* libsqlite3.0.dylib */,
 				E4D968401696BE6500481DAA /* EForms */,
 				E4D968391696BE6500481DAA /* Frameworks */,
 				E4D968371696BE6500481DAA /* Products */,
@@ -77,11 +222,39 @@
 		E4D968401696BE6500481DAA /* EForms */ = {
 			isa = PBXGroup;
 			children = (
+				E4A0694F169AA5CD00284E2E /* GradientButton.h */,
+				E4A06950169AA5CD00284E2E /* GradientButton.m */,
 				E4D968491696BE6500481DAA /* EFormsAppDelegate.h */,
 				E4D9684A1696BE6500481DAA /* EFormsAppDelegate.m */,
 				E4D9684C1696BE6500481DAA /* EFormsViewController.h */,
 				E4D9684D1696BE6500481DAA /* EFormsViewController.m */,
 				E4D9684F1696BE6500481DAA /* EFormsViewController.xib */,
+				E4A06953169AA83400284E2E /* DashboardViewController.h */,
+				E4A06954169AA83400284E2E /* DashboardViewController.m */,
+				E42B5DAD16A56DF500AE35C2 /* roundedBG.png */,
+				E4A06955169AA83400284E2E /* DashboardViewController.xib */,
+				E4A0695F169ACFD600284E2E /* DataCaptureMainViewController.h */,
+				E4A06960169ACFD600284E2E /* DataCaptureMainViewController.m */,
+				E4A06961169ACFD600284E2E /* DataCaptureMainViewController.xib */,
+				E42B5DA116A566FE00AE35C2 /* DataCapture2ViewController.h */,
+				E42B5DA216A566FE00AE35C2 /* DataCapture2ViewController.m */,
+				E42B5DA316A566FE00AE35C2 /* DataCapture2ViewController.xib */,
+				E42B5DB116A5845900AE35C2 /* buttonpadBG.png */,
+				E48C126E169C454D006F9A4E /* ListViewController.h */,
+				E48C126F169C454D006F9A4E /* ListViewController.m */,
+				E48C1270169C454D006F9A4E /* ListViewController.xib */,
+				E48C1273169C456B006F9A4E /* AboutViewController.h */,
+				E48C1274169C456B006F9A4E /* AboutViewController.m */,
+				E48C1275169C456B006F9A4E /* AboutViewController.xib */,
+				E48C1278169C4591006F9A4E /* SettingsViewController.h */,
+				E48C1279169C4591006F9A4E /* SettingsViewController.m */,
+				E48C127A169C4591006F9A4E /* SettingsViewController.xib */,
+				E49411CC16AFB6DA002013C4 /* NewmealData.db */,
+				E42B5D9F16A5466300AE35C2 /* ConnectionDelegate.h */,
+				E495AE5F169C55F90072DC5D /* mealData.db */,
+				E49411CF16AFBD38002013C4 /* CustomCellViewController.h */,
+				E49411D016AFBD38002013C4 /* CustomCellViewController.m */,
+				E49411D116AFBD38002013C4 /* CustomCellViewController.xib */,
 				E4D968411696BE6500481DAA /* Supporting Files */,
 			);
 			path = EForms;
@@ -90,6 +263,11 @@
 		E4D968411696BE6500481DAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4A06958169AB6D600284E2E /* images */,
+				E4D968591696BFAA00481DAA /* ekfc_header2.png */,
+				E4D9685A1696BFAA00481DAA /* EKFC_logo.png */,
+				E4D9685B1696BFAA00481DAA /* input-password.png */,
+				E4D9685C1696BFAA00481DAA /* input-username.png */,
 				E4D968421696BE6500481DAA /* EForms-Info.plist */,
 				E4D968431696BE6500481DAA /* InfoPlist.strings */,
 				E4D968461696BE6500481DAA /* main.m */,
@@ -152,6 +330,46 @@
 			files = (
 				E4D968451696BE6500481DAA /* InfoPlist.strings in Resources */,
 				E4D968511696BE6500481DAA /* EFormsViewController.xib in Resources */,
+				E4D9685D1696BFAA00481DAA /* ekfc_header2.png in Resources */,
+				E4D9685E1696BFAA00481DAA /* EKFC_logo.png in Resources */,
+				E4D9685F1696BFAA00481DAA /* input-password.png in Resources */,
+				E4D968601696BFAA00481DAA /* input-username.png in Resources */,
+				E4A06957169AA83400284E2E /* DashboardViewController.xib in Resources */,
+				E4A0695A169AB72000284E2E /* abtnw.png in Resources */,
+				E4A0695C169AB72800284E2E /* settings.png in Resources */,
+				E4A0695E169AB72F00284E2E /* collection1.png in Resources */,
+				E4A06963169ACFD600284E2E /* DataCaptureMainViewController.xib in Resources */,
+				E4A06965169AF23B00284E2E /* whiteback.png in Resources */,
+				E4A06967169AF5E800284E2E /* whiteback2.png in Resources */,
+				E4A06969169B0A6C00284E2E /* home1.png in Resources */,
+				E4A0696B169B0A7300284E2E /* add1.png in Resources */,
+				E4A0696D169B0A7E00284E2E /* list1.png in Resources */,
+				E4492064169C0F08008AE28C /* sliderImg.png in Resources */,
+				E4492067169C1D1B008AE28C /* buttonNw.png in Resources */,
+				E48C126B169C309C006F9A4E /* arroe.png in Resources */,
+				E48C126C169C309C006F9A4E /* arrow down.png in Resources */,
+				E48C1272169C454D006F9A4E /* ListViewController.xib in Resources */,
+				E48C1277169C456B006F9A4E /* AboutViewController.xib in Resources */,
+				E48C127C169C4591006F9A4E /* SettingsViewController.xib in Resources */,
+				E495AE60169C55F90072DC5D /* mealData.db in Resources */,
+				E495AE67169C5F880072DC5D /* add.png in Resources */,
+				E495AE68169C5F880072DC5D /* home.png in Resources */,
+				E495AE6A169C5F950072DC5D /* list.png in Resources */,
+				E415E1FD169D73DB009D7469 /* EKFClogo503x303.png in Resources */,
+				E4F06352169EC3F0006A62C1 /* newBg2.png in Resources */,
+				E4F06355169EC5E1006A62C1 /* ekfctranslogo.png in Resources */,
+				E4F06357169ED68D006A62C1 /* ekfctranslogo_cleaned.png in Resources */,
+				E4E89E9C16A0300F009046FE /* white_block.png in Resources */,
+				E4E89E9D16A0300F009046FE /* white_curve1.png in Resources */,
+				E4E89E9E16A0300F009046FE /* white_curve2.png in Resources */,
+				E42B5DA516A566FE00AE35C2 /* DataCapture2ViewController.xib in Resources */,
+				E42B5DAB16A56C3700AE35C2 /* roundBackg.png in Resources */,
+				E42B5DAE16A56DF500AE35C2 /* roundedBG.png in Resources */,
+				E42B5DB016A57EF600AE35C2 /* roundSmallBG.png in Resources */,
+				E42B5DB216A5845900AE35C2 /* buttonpadBG.png in Resources */,
+				E49423F216A691E400344E69 /* roundtxtBoxBg.png in Resources */,
+				E49411CD16AFB6DA002013C4 /* NewmealData.db in Resources */,
+				E49411D316AFBD38002013C4 /* CustomCellViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +383,14 @@
 				E4D968471696BE6500481DAA /* main.m in Sources */,
 				E4D9684B1696BE6500481DAA /* EFormsAppDelegate.m in Sources */,
 				E4D9684E1696BE6500481DAA /* EFormsViewController.m in Sources */,
+				E4A06951169AA5CD00284E2E /* GradientButton.m in Sources */,
+				E4A06956169AA83400284E2E /* DashboardViewController.m in Sources */,
+				E4A06962169ACFD600284E2E /* DataCaptureMainViewController.m in Sources */,
+				E48C1271169C454D006F9A4E /* ListViewController.m in Sources */,
+				E48C1276169C456B006F9A4E /* AboutViewController.m in Sources */,
+				E48C127B169C4591006F9A4E /* SettingsViewController.m in Sources */,
+				E42B5DA416A566FE00AE35C2 /* DataCapture2ViewController.m in Sources */,
+				E49411D216AFBD38002013C4 /* CustomCellViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +424,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -212,7 +439,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -226,15 +455,18 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -244,10 +476,15 @@
 		E4D968551696BE6500481DAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EForms/EForms-Prefix.pch";
 				INFOPLIST_FILE = "EForms/EForms-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,10 +492,15 @@
 		E4D968561696BE6500481DAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EForms/EForms-Prefix.pch";
 				INFOPLIST_FILE = "EForms/EForms-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7509CF59-C57B-4DA7-962F-5CC8F33BE441";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,6 +524,7 @@
 				E4D968561696BE6500481DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,15 +11,19 @@
 #import "EFormsViewController.h"
 
 @implementation EFormsAppDelegate
-
+@synthesize delegate;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+     //[NSTimer scheduledTimerWithTimeInterval:10 target:self selector:@selector(myName) userInfo:nil repeats:NO];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[EFormsViewController alloc] initWithNibName:@"EFormsViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.navController = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
+    //[[NSTimer alloc]initWithFireDate:self interval:10.0 target:self selector:@selector(myname) userInfo:nil repeats:NO];
+   
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -27,6 +31,16 @@
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
+
+-(void)myName{
+    [self getResult:@"HIi"];
+}
+
+-(void)getResult:(id)_result{
+  	//Stored the results in the _result of the Connection delegate Method
+	[delegate getResult:_result];
+}
+
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {

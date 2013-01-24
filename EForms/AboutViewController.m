@@ -29,6 +29,9 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+-(IBAction)homeclick:(id)sender{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
